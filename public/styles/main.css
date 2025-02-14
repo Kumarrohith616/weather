@@ -1,0 +1,54 @@
+body{
+    background-color: #3674B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cloud-img{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    
+}
+h1{
+    color: #578FCA;
+    font-size: 4rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+h2{
+    color: #A1E3F9;
+    font-size:3rem;
+    font-family: Poppins;
+    font-weight: 300;
+}
+h3{
+    color: #D1F8EF;
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 200;
+}
+@media(max-width:426px){
+    .cloud-img{
+        height: 200px;
+        width: 300px;
+        object-fit: cover;
+        
+    }
+    h1{
+        
+        font-size: 3rem;
+
+    }
+    h2{
+        font-size:2rem;
+        text-align: center;
+
+    }
+    h3{
+        font-size: 1rem;
+        text-align: center;
+
+    }
+}
